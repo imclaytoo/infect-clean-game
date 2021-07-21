@@ -218,6 +218,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: People, Assembly-CSharp
+        m_MethodName: ChangeMask
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &65096804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +457,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6977234449226483057, guid: 77c480f97685b734eaabffc185b6b31a, type: 3}
   m_PrefabInstance: {fileID: 901001654}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1478145408}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9403557da5df7dc44bc34afc38d94bc3, type: 3}
@@ -661,6 +673,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009255400}
   m_CullTransparentMesh: 1
+--- !u!1 &1478145408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6977234449226483056, guid: 77c480f97685b734eaabffc185b6b31a, type: 3}
+  m_PrefabInstance: {fileID: 901001654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1478145411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478145408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.94, y: 17.17, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1480305881
 GameObject:
   m_ObjectHideFlags: 0
