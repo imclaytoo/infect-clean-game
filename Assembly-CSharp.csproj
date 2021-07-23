@@ -45,6 +45,7 @@
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\Script\People.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+     <Compile Include="Assets\Script\Spawner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
