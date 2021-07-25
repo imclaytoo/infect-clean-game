@@ -31,5 +31,6 @@ public class People : MonoBehaviour
 
     public void ChangeMask(){
         this.gameObject.GetComponent<SpriteRenderer>().sprite = mask;
+        Destroy(gameObject, 2f);
     }
 }
