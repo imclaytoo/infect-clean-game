@@ -9,6 +9,15 @@ public class Timer : MonoBehaviour
     public float startingTime = 10f;
     public GameObject canvas;
     [SerializeField] Text countDown;
+    public GameObject Pemain;
+    public GameObject Orang;
+    public GameObject Orang1;
+    public GameObject Orang2;
+    public GameObject Orang3;
+    public GameObject Orang4;
+    public GameObject Orang5;
+    public GameObject Joycon;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +36,14 @@ public class Timer : MonoBehaviour
         {
             timer = 0;
             canvas.SetActive(true);
+            Pemain.SetActive(false);
+        Orang.SetActive(false);
+        Orang1.SetActive(false);
+        Orang2.SetActive(false);
+        Orang3.SetActive(false);
+        Orang4.SetActive(false);
+        Orang5.SetActive(false);
+        Joycon.SetActive(false);
             Time.timeScale = 0;
         }
 
