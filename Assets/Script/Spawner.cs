@@ -8,13 +8,13 @@ public class Spawner : MonoBehaviour
     public GameObject[] people;
     int randomSpawnPoint, randomPeople;
     public static bool spawnAllowed;
-    public float timer;
+    public float duration;
 
     // Start is called before the first frame update
     void Start()
     {
         spawnAllowed = true;
-        InvokeRepeating("SpawnNow", 0f, timer);
+        InvokeRepeating("SpawnNow", 0f, duration);
     }
 
     // Update is called once per frame
