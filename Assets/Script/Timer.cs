@@ -37,13 +37,13 @@ public class Timer : MonoBehaviour
             timer = 0;
             canvas.SetActive(true);
             Pemain.SetActive(false);
-        Orang.SetActive(false);
-        Orang1.SetActive(false);
-        Orang2.SetActive(false);
-        Orang3.SetActive(false);
-        Orang4.SetActive(false);
-        Orang5.SetActive(false);
-        Joycon.SetActive(false);
+            Orang.SetActive(false);
+            Orang1.SetActive(false);
+            Orang2.SetActive(false);
+            Orang3.SetActive(false);
+            Orang4.SetActive(false);
+            Orang5.SetActive(false);
+            Joycon.SetActive(false);
             Time.timeScale = 0;
         }
 

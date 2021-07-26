@@ -22,9 +22,9 @@ public class Spawner : MonoBehaviour
     {
         if (spawnAllowed)
         {
-        randomSpawnPoint = Random.Range(0, spawnPoint.Length);
-        randomPeople = Random.Range(0, people.Length);
-        Instantiate (people[randomPeople], spawnPoint[randomSpawnPoint].position, Quaternion.identity);   
+            randomSpawnPoint = Random.Range(0, spawnPoint.Length);
+            randomPeople = Random.Range(0, people.Length);
+            Instantiate (people[randomPeople], spawnPoint[randomSpawnPoint].position, Quaternion.identity);   
         }
     }
 }

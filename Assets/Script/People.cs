@@ -24,7 +24,8 @@ public class People : MonoBehaviour
             buttonAction.SetActive(true);
             
         }
-        else{
+        else
+        {
             buttonAction.SetActive(false);
         }
     }
