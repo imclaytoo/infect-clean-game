@@ -122,7 +122,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   rb: {fileID: 3838854837822269217}
   animator: {fileID: 3838854837822269222}
-  joystick: {fileID: 0}
+  joystick: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
 --- !u!95 &3838854837822269222
 Animator:
   serializedVersion: 3

@@ -1656,10 +1656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21ecb0cd66dc7e49953373f1f209dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 60
+  startingTime: 3
   canvas: {fileID: 300848850}
   countDown: {fileID: 573548274}
-  Pemain: {fileID: 0}
+  Pemain: {fileID: 1907263485}
   Orang: {fileID: 0}
   Orang1: {fileID: 0}
   Orang2: {fileID: 0}
