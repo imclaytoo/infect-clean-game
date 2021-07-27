@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 286546653}
-  Pemain: {fileID: 0}
+  Pemain: {fileID: 1907263485}
   Orang: {fileID: 0}
   Orang1: {fileID: 0}
   Orang2: {fileID: 0}
@@ -3833,6 +3833,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
+--- !u!1 &1907263485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3838854837822269229, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
+  m_PrefabInstance: {fileID: 1907263484}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1974448293
 GameObject:
   m_ObjectHideFlags: 0
