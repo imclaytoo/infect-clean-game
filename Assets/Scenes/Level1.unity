@@ -400,9 +400,10 @@ GameObject:
   - component: {fileID: 83565083}
   - component: {fileID: 83565082}
   - component: {fileID: 83565081}
+  - component: {fileID: 83565084}
   m_Layer: 0
   m_Name: People (2)
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -489,6 +490,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &83565084
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83565080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.6106377, y: -1.2358074}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 28.23635, y: 38.12}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 52.353714, y: 55.509556}
+  m_EdgeRadius: 0
 --- !u!1 &88222280
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,9 +759,10 @@ GameObject:
   - component: {fileID: 286920008}
   - component: {fileID: 286920007}
   - component: {fileID: 286920006}
+  - component: {fileID: 286920009}
   m_Layer: 0
   m_Name: People
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -821,6 +849,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &286920009
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286920005}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.050922394, y: 0.35076714}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 23.582373, y: 30.9}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 35.50049, y: 44.866886}
+  m_EdgeRadius: 0
 --- !u!1 &307013458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,9 +1151,10 @@ GameObject:
   - component: {fileID: 383752159}
   - component: {fileID: 383752158}
   - component: {fileID: 383752157}
+  - component: {fileID: 383752160}
   m_Layer: 0
   m_Name: People (5)
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1186,6 +1241,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &383752160
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383752156}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.8777294, y: -0.9388695}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 26.113281, y: 40}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 48.646145, y: 55.39747}
+  m_EdgeRadius: 0
 --- !u!1 &385695498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,9 +2474,10 @@ GameObject:
   - component: {fileID: 912187609}
   - component: {fileID: 912187608}
   - component: {fileID: 912187607}
+  - component: {fileID: 912187610}
   m_Layer: 0
   m_Name: People (1)
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2482,6 +2564,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &912187610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912187606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.2371979, y: 0.05155182}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 24.351856, y: 30.9}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 37.75483, y: 40.90068}
+  m_EdgeRadius: 0
 --- !u!1 &920909308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,9 +3067,10 @@ GameObject:
   - component: {fileID: 1127783348}
   - component: {fileID: 1127783347}
   - component: {fileID: 1127783346}
+  - component: {fileID: 1127783349}
   m_Layer: 0
   m_Name: People (3)
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3048,6 +3157,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1127783349
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127783345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.0234756, y: 0.14381886}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 25.65, y: 38.121334}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 46.239815, y: 55.172485}
+  m_EdgeRadius: 0
 --- !u!1 &1155968348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5322,9 +5457,10 @@ GameObject:
   - component: {fileID: 2079833016}
   - component: {fileID: 2079833015}
   - component: {fileID: 2079833014}
+  - component: {fileID: 2079833017}
   m_Layer: 0
   m_Name: People (4)
-  m_TagString: Untagged
+  m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5411,6 +5547,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2079833017
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079833013}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.061115265, y: -0.24730301}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 26.877583, y: 38.12}
+    newSize: {x: 23.582373, y: 30.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 46.312195, y: 53.52671}
+  m_EdgeRadius: 0
 --- !u!1 &2087659156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5545,5 +5707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5225093979058548610, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
+      propertyPath: scoreButton
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5225093979058548610, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
