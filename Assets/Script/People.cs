@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class People : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class People : MonoBehaviour
     private Transform playerPos;
     public float distance;
     public Sprite mask;
+
+    public int score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +25,7 @@ public class People : MonoBehaviour
         if (Vector2.Distance(transform.position, playerPos.position) < distance)
         {
             buttonAction.SetActive(true);
-            
+            score = +1;
         }
         else
         {
