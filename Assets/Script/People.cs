@@ -26,7 +26,7 @@ public class People : MonoBehaviour
         if (Vector2.Distance(transform.position, playerPos.position) < distance)
         {
             buttonAction.SetActive(true);
-            
+            score += 1;
         }
         else
         {
@@ -37,7 +37,7 @@ public class People : MonoBehaviour
     public void ChangeMask(){
         this.gameObject.GetComponent<SpriteRenderer>().sprite = mask;
         Destroy(gameObject, 2f);
-        score += 1;
+        
         Debug.Log(score);
     }
 }
