@@ -2719,14 +2719,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
+        m_MethodName: NextLevel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level1
+          m_StringArgument: Level2Trial
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &920909311
@@ -3558,14 +3558,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Restart
-        m_Mode: 1
+        m_MethodName: NextLevel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level2Trial
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1240966101

@@ -14,7 +14,7 @@ public class LevelMenu : MonoBehaviour
 
     public void Level_2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Level2Trial");
         Time.timeScale = 1f;
         AudioListener.volume = 1f;
     }
