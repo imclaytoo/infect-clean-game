@@ -40,6 +40,15 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
+     <Compile Include="Assets\Panoply\Editor\GlobalTimelineDrawer.cs" />
+     <Compile Include="Assets\Panoply\Editor\AnimationTriggerDrawer.cs" />
+     <Compile Include="Assets\Panoply\Editor\ArtworkEditor.cs" />
+     <Compile Include="Assets\Panoply\Editor\FrameStateDrawer.cs" />
+     <Compile Include="Assets\Panoply\Editor\PanelEditor.cs" />
+     <Compile Include="Assets\Panoply\Editor\ThumbnailMenuItemDrawer.cs" />
+     <Compile Include="Assets\Panoply\Editor\InstrumentDrawer.cs" />
+     <Compile Include="Assets\Panoply\Editor\CaptionEditor.cs" />
+     <Compile Include="Assets\Panoply\Editor\AudioTrackEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
