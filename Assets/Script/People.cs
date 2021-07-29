@@ -26,7 +26,7 @@ public class People : MonoBehaviour
         if (Vector2.Distance(transform.position, playerPos.position) < distance)
         {
             buttonAction.SetActive(true);
-            //score += 1;
+            score += 1;
         }
         else
         {
