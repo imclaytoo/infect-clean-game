@@ -18,6 +18,7 @@ public class Timer : MonoBehaviour
     public GameObject Orang4;
     public GameObject Orang5;
     public GameObject Joycon;
+    public GameObject ActionButton;
 
     public int score = 0;
     Scoring scoring;

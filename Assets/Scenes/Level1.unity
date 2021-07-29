@@ -2076,7 +2076,8 @@ MonoBehaviour:
   Orang3: {fileID: 1127783345}
   Orang4: {fileID: 2079833013}
   Orang5: {fileID: 383752156}
-  Joycon: {fileID: 249275797}
+  Joycon: {fileID: 1818962056}
+  ActionButton: {fileID: 1830993039}
   score: 0
 --- !u!1 &628543438
 GameObject:
@@ -4700,12 +4701,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 1818962053}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1818962056}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1818962056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+  m_PrefabInstance: {fileID: 1818962053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1830106631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3838854837822269229, guid: fb90d9bb56d87384ebd6937d3a905be9, type: 3}
