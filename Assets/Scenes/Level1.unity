@@ -624,7 +624,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2722,7 +2722,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3621,7 +3621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -187.40002, y: -65.22}
+  m_AnchoredPosition: {x: -187.40002, y: -65.21997}
   m_SizeDelta: {x: 350, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252634362
@@ -4613,7 +4613,7 @@ MonoBehaviour:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: NextLevel
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4730,7 +4730,7 @@ GameObject:
   - component: {fileID: 1617886149}
   - component: {fileID: 1617886148}
   m_Layer: 5
-  m_Name: Next Level
+  m_Name: Restart Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4801,8 +4801,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: NextLevel
-        m_Mode: 5
+        m_MethodName: Restart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4831,7 +4831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2d9e4354c91560d4ab88b03f1dc9aa65, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1d3a0345a2f34114ab692c266da7109a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

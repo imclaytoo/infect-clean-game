@@ -63,7 +63,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void NextLevel(string level){
-        SceneManager.LoadScene(level);
+    public void NextLevel(){
+        SceneManager.LoadScene("Level2Trial");
     }
 }
