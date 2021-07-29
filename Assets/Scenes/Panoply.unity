@@ -275,7 +275,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 700209602}
+  - {fileID: 1175963737}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -473,7 +473,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1245261891}
+  - {fileID: 381124434}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2440,7 +2440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: field of view
-      value: 29.94242
+      value: 29.971182
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -2586,7 +2586,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &311863339
+--- !u!21 &325028481
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -2595,7 +2595,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Sprites-Default
   m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2738,7 +2738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8510901605603232713, guid: a2b184ad337c646b9b129da5daf29ccb, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -274.77777
+      value: -480
       objectReference: {fileID: 0}
     - target: {fileID: 8510901605603232713, guid: a2b184ad337c646b9b129da5daf29ccb, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2746,12 +2746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b184ad337c646b9b129da5daf29ccb, type: 3}
---- !u!224 &400677297 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8511109642235044533, guid: a2b184ad337c646b9b129da5daf29ccb, type: 3}
-  m_PrefabInstance: {fileID: 341537231}
-  m_PrefabAsset: {fileID: 0}
---- !u!21 &411300979
+--- !u!21 &381124434
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -2760,7 +2755,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Sprites-Default
   m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -2790,6 +2785,11 @@ Material:
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!224 &400677297 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8511109642235044533, guid: a2b184ad337c646b9b129da5daf29ccb, type: 3}
+  m_PrefabInstance: {fileID: 341537231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &451423373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,7 +2942,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 411300979}
+  - {fileID: 325028481}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4714,7 +4714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: field of view
-      value: 29.94242
+      value: 29.971182
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -4794,45 +4794,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
---- !u!21 &700209602
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DecalTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4926,45 +4887,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!21 &869130295
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DecalTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!114 &875146591 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1016737787188995086, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
@@ -5022,7 +4944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -87.38901, y: -73.8}
+  m_AnchoredPosition: {x: -87.38901, y: -73.79999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994668295
@@ -5071,8 +4993,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 69583246}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: NextLevel
-        m_Mode: 5
+        m_MethodName: SkipScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7044,7 +6966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: field of view
-      value: 29.94242
+      value: 29.971182
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -7124,7 +7046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
---- !u!21 &1245261891
+--- !u!21 &1117057227
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -7133,7 +7055,46 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Sprites-Default
   m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+--- !u!21 &1175963737
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -9080,7 +9041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: field of view
-      value: 29.94242
+      value: 29.971182
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -9160,6 +9121,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
+--- !u!21 &1312665501
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!20 &1512093953 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
@@ -9339,7 +9339,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 869130295}
+  - {fileID: 1117057227}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11062,7 +11062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: field of view
-      value: 29.94242
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -11078,19 +11078,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.30730793
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.49951968
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.38559234
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198477262, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.49951968
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1016737787198673390, guid: 84dfa90e7bc314e908c4dcbcbd2f2cec, type: 3}
       propertyPath: m_Name
@@ -11299,7 +11299,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 311863339}
+  - {fileID: 1312665501}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

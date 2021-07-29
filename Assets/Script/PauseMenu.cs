@@ -52,6 +52,13 @@ public class PauseMenu : MonoBehaviour
         AudioListener.volume = 1f;
     }
 
+    public void Retry()
+    {
+        SceneManager.LoadScene("Level2Trial");
+        Time.timeScale = 1f;
+        AudioListener.volume = 1f;
+    }
+
     public void Exit()
     {
         Application.Quit();
@@ -61,9 +68,20 @@ public class PauseMenu : MonoBehaviour
     public void Home()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
+        AudioListener.volume = 1f;
     }
 
     public void NextLevel(){
         SceneManager.LoadScene("Level2Trial");
+        Time.timeScale = 1f;
+        AudioListener.volume = 1f;
+    }
+
+    public void SkipScene()
+    {
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
+        AudioListener.volume = 1f;
     }
 }

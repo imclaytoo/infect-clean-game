@@ -4949,7 +4949,7 @@ GameObject:
   - component: {fileID: 1530604110}
   - component: {fileID: 1530604109}
   m_Layer: 5
-  m_Name: Next Level
+  m_Name: Retry Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5020,7 +5020,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488951663}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
