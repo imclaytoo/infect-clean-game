@@ -20,10 +20,12 @@ public class Timer : MonoBehaviour
     public GameObject Joycon;
 
     public int score = 0;
+    Scoring scoring;
 
     // Start is called before the first frame update
     void Start()
     {
+        scoring = GameObject.FindObjectOfType<Scoring>();
         timer = startingTime;
         gameCompleteCanvas.SetActive(false);
         gameOverCanvas.SetActive(false);
@@ -50,9 +52,8 @@ public class Timer : MonoBehaviour
             Time.timeScale = 0;
         }
         
-        if (score == 6)
+        if (scoring.score == 6)
         {
-            timer = 0;
             gameCompleteCanvas.SetActive(true);
             Pemain.SetActive(false);
             Orang.SetActive(false);

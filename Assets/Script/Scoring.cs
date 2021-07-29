@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Scoring : MonoBehaviour
 {
-    public GameObject scoreButton;
+    // public GameObject scoreButton;
 
     public float score;
 
@@ -13,19 +13,19 @@ public class Scoring : MonoBehaviour
         score = 0;   
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag.Equals("People"))
-        {
-        scoreButton.SetActive(true);
-        }    
-    }
+    // void OnTriggerEnter2D(Collider2D other) {
+    //     if (other.gameObject.tag.Equals("People"))
+    //     {
+    //     scoreButton.SetActive(true);
+    //     }    
+    // }
 
-    void OnTriggerExit2D(Collider2D other) {
-        if (other.gameObject.tag.Equals("People"))
-        {
-            scoreButton.SetActive(false);
-        }    
-    }
+    // void OnTriggerExit2D(Collider2D other) {
+    //     if (other.gameObject.tag.Equals("People"))
+    //     {
+    //         scoreButton.SetActive(false);
+    //     }    
+    // }
 
     public void AddScore(){
         score += 1;
