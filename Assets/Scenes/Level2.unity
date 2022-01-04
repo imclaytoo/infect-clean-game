@@ -1657,7 +1657,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingTime: 3
-  canvas: {fileID: 300848850}
+  gameCompleteCanvas: {fileID: 0}
+  gameOverCanvas: {fileID: 0}
   countDown: {fileID: 573548274}
   Pemain: {fileID: 1907263485}
   Orang: {fileID: 0}
@@ -1667,6 +1668,8 @@ MonoBehaviour:
   Orang4: {fileID: 0}
   Orang5: {fileID: 0}
   Joycon: {fileID: 1035739900}
+  ActionButton: {fileID: 0}
+  score: 0
 --- !u!114 &885468502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1699,7 +1702,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2400, y: 1080}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
